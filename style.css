@@ -7,10 +7,10 @@
   border: 1px solid black;
   display: flex;
   height: 600px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  background-image: url("http://68.media.tumblr.com/985399913f88afbb7373f4f7979a0881/tumblr_nx0gczUv2Z1qknyvjo1_500.gif");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
