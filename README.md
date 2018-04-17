@@ -1,5 +1,7 @@
 # simple-website-challenge
 
+https://y0n4.github.io/simple-website-challenge/
+
 1. Purpose
 I'm going to create a inspired version of Jennifer Dewalt's 180 day challenge window website (https://jenniferdewalt.com/window/page). I'll be using anime/manga visuals (it could change)
 
