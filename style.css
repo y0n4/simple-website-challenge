@@ -23,6 +23,7 @@
 
 #top {
   position: absolute;
+  right: 0;
   height: 580px;
   width: 380px;
   background-color: rgba(250, 250, 250, 0.3);
@@ -30,6 +31,7 @@
 }
 
 #bottom {
+  float: left;
   height: 580px;
   width: 380px;
   background-color: rgba(250, 250, 250, 0.3);
