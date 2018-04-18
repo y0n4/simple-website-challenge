@@ -4,38 +4,36 @@
 }
 
 #window {
-  border: 1px solid black;
+  border: 15px solid #FFBFBE;
   display: flex;
   height: 600px;
-  width: 70%;
+  width: 800px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-canvas {
-  border: 1px solid black;
-  background-color: #FFE4EF;
-  margin: 0 auto;
-  height: 600px;
-  width: 70%;
-}
-
-img {
-  max-width:100%;
-  max-height:100%;
-}
-
-.top {
-  height: 300px;
-  width: 400px;
+.panel {
+  width: 100%;
+  height: 100%:
   background-color: red;
-  border: 1px solid black;
+  position: relative;
 }
 
-.bottom {
-  height: 50%;
+#top {
+  position: absolute;
+  height: 580px;
+  width: 380px;
+  background-color: rgba(250, 250, 250, 0.3);
+  border: 10px solid #FFE6E5;
+}
+
+#bottom {
+  height: 580px;
+  width: 380px;
+  background-color: rgba(250, 250, 250, 0.3);
+  border: 10px solid #FFE6E5;
 }
 
 .btn {
