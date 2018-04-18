@@ -21,14 +21,11 @@ Tuesday
 
 Wednesday
   morning: continue from Tuesday's work (writing randomize image functions)
-  noon: jquery functions
-        figure out how to get new image show up when refreshed/button clicked
-        figure out how to increase/decrease volume when window is opened/closed
-  night: pseudo code and implement jquery functions one at a time?
+  rest of the day: figure out how to create a virtual opaque window slider/panel using html, css, and jquery??
 
 Thursday
-  monday- noon: continue from Wednesday's work
-  night: refactor functions to pseudo class initiation
+  morning: continue from Wednesday's work ()
+
 Friday
   rest of the day: css styling
 
