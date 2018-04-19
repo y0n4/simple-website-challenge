@@ -23,7 +23,7 @@ $(document).ready(function(){
     var x = e.pageX - this.offsetLeft;
     if(x <= 320) {
       //panel moves left and right only
-      $("#top").css({'left': x});
+      $("#left").css({'left': x});
       //sound gets louder when panel slide to left (open)
       //sound gets lower when panel slide to right (close)
       $sound.prop("volume", (1 - (304 / 2 - x) / (304 / 2)));
