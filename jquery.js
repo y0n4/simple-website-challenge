@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var $sound = $('audio');
+  var $sound = $("audio");
   //default volume should be silent
   $sound.prop("volume", 0.0);
 
@@ -8,9 +8,22 @@ $(document).ready(function(){
       sounds[sound].volume = vol;
   }
 
+  function loop() {
+    $('h1').animate({'top': '8'}, {
+      duration: 900,
+      complete: function() {
+        $('h1').animate({top: 0}, {
+          duration: 900,
+          complete: loop
+        });
+      }
+    });
+  }
+  loop();
+
   //everytime page refresh, new image pops up
   $("#window").css('background-image', 'url(' + randomImage() + ')');
-  //$("#window").css('background-image', 'url(https://i.giphy.com/media/J80drcoKo194I/giphy.webp)');
+  $("#window").css('background-image', 'url(http://38.media.tumblr.com/2d800ab79fe73dcd87e5dd20bb30ad51/tumblr_na90ypEFLf1sif4cro4_500.gif)');
 
   //everytime button pressed, new image pops up
   $('.btn').click(function() {
