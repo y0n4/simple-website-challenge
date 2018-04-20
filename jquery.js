@@ -23,7 +23,7 @@ $(document).ready(function(){
 
   //everytime page refresh, new image pops up
   $("#window").css('background-image', 'url(' + randomImage() + ')');
-  $("#window").css('background-image', 'url(http://38.media.tumblr.com/2d800ab79fe73dcd87e5dd20bb30ad51/tumblr_na90ypEFLf1sif4cro4_500.gif)');
+  //$("#window").css('background-image', 'url(https://media.giphy.com/media/nlk3Y1u3r1n5C/giphy.gif)');
 
   //everytime button pressed, new image pops up
   $('.btn').click(function() {
